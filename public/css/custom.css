@@ -1,0 +1,94 @@
+body {
+    background-color: #f7f8f9;
+}
+
+.card {
+    background-color: #f7f8f9;
+    border: 1px solid rgba(0, 34, 51, 0.1);
+    box-shadow: 2px 4px 10px 0 rgba(0, 34, 51, 0.05), 2px 4px 10px 0 rgba(0, 34, 51, 0.05);
+    border-radius: 0.15rem;
+}
+
+/* Tabs Card */
+
+.tab-card {
+  border:2px solid #f7f8f9;
+}
+
+.tab-card-header {
+  background:#f7f8f9;
+}
+/* Default mode */
+.tab-card-header > .nav-tabs {
+  border: none;
+  margin: 0px;
+}
+.tab-card-header > .nav-tabs > li {
+  margin-right: 2px;
+}
+.tab-card-header > .nav-tabs > li > a {
+  border: 0;
+  border-bottom:2px solid #737373;
+  margin-right: 0;
+  color: #737373;
+  padding: 2px 15px;
+}
+
+.tab-card-header > .nav-tabs > li > a.show {
+    border-bottom:2px solid #0e7816;
+    color: #0e7816;
+    background-color: #f7f8f9
+}
+.tab-card-header > .nav-tabs > li > a:hover {
+    color: #0e7816;
+}
+
+.tab-card-header > .tab-content {
+  padding-bottom: 0;
+}
+
+.text-8 {
+  font-size: 8px;
+  line-height: 1;
+}
+
+.text-10 {
+  font-size: 10px;
+  line-height: 1;
+}
+
+.text-12 {
+  font-size: 12px;
+  line-height: 1;
+}
+
+.text-16 {
+  font-size: 16px;
+  line-height: 1;
+}
+
+
+.image-square {
+  height: 174px;
+  object-fit: cover;
+  object-position: center center;
+
+}
+
+::placeholder { /* Most modern browsers support this now. */
+  color: white !important;
+}
+
+@media (max-width: 400px){
+  .text-14 {
+    font-size: 12.4px;
+    font-weight: bold;
+  }
+}
+
+@media (min-width: 400px) {
+    .col-custom{
+        width: 400px;
+    }
+
+}
