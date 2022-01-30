@@ -16,7 +16,7 @@ class MenuController extends Controller
                 $item = $product;
             }
         }
-        $ID = $item->ID;
+        $ID = mb_substr($item->ID, 0, 5);
         $NamaMakanan = explode('??', $item->NamaMakanan);
         $HargaMakanan = explode('??', $item->HargaMakanan);
         $FotoMakanan = explode('??', $item->URLFotoMakanan);

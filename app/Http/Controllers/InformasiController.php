@@ -16,7 +16,7 @@ class InformasiController extends Controller
                 $item = $product;
             }
         }
-        $ID = $item->ID;
+        $ID = mb_substr($item->ID, 0, 5);
         return view('informasi.index', [
             'product' => $product,
             'info' => 'Informasi',
