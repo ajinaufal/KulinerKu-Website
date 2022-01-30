@@ -73,12 +73,12 @@
                             <h6 @if ($info == 'Menu') style="color: #FF1700;" @endif >Menu</h6>
                         </a>
                     </li>
-                    <li class="nav-item">
+                    {{-- <li class="nav-item">
                         <a class="nav-link" id="ulasan-tab" data-toggle="tab" href="#" role="tab"
                             aria-controls="Three" aria-selected="false">
                             <h6>Ulasan</h6>
                         </a>
-                    </li>
+                    </li> --}}
                 </ul>
             </div>
         </div>
@@ -88,7 +88,7 @@
     @yield('body')
 
     <!-- navbar -->
-    <nav class="navbar navbar-light bg-light navbar-expand fixed-bottom p-0">
+    {{-- <nav class="navbar navbar-light bg-light navbar-expand fixed-bottom p-0">
         <div class="d-flex container-fluid justify-content-around">
             <div class="d-flex justify-content-around">
                 <ul class="navbar-nav w-100 nav-justified">
@@ -146,7 +146,7 @@
                 </ul>
             </div>
         </div>
-    </nav>
+    </nav> --}}
     <!--end navbar-->
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="js/bootstrap.js"></script>
